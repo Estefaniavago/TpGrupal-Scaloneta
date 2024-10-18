@@ -55,38 +55,6 @@ nav ul li a {
   color: #ffed4f;
   transition: background-color 10.s ease;
 }
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-form label {
-  margin-bottom: 5px;
-}
-
-form input, form textarea {
-  margin-bottom: 15px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 100%;
-  font-family: 'Arial', sans-serif;
-}
-
-form button {
-  padding: 10px;
-  background-color: #0066cc;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-form button:hover {
-  background-color: #004c99;
-}
-
 
 /***** MENU HAMBURGUESA *****/
 .hamburger {                            
@@ -137,6 +105,16 @@ form button:hover {
     font-style: normal;
   }
 
+/***** TEXTO *****/
+
+#novedades, #historia, #institucional, #lascaloneta, .texto{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 450;
+  margin: 20px;
+}
+
+/***** FOOTER *****/
   .footer {
     background-color: #334; 
     padding: 20px; 
